@@ -1,0 +1,297 @@
+body {
+	height: 100%;
+	width: 100%;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	color: #222222;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-weight: normal;
+	text-align: left;
+}
+a:link {
+	color: #EEEEEE;
+	text-decoration: none;
+}
+a:visited {
+	color: #DDDDDD;
+	text-decoration: none;
+}
+a:active {
+	color: #FF0000;
+	text-decoration: none;
+}
+.LeftColumn {
+	position: fixed;
+	overflow-y: auto;
+	border-spacing: 0px;
+	margin: 0;
+	padding: 0;
+	background-color: #494949;
+	color: #dbdbdb;
+	width: 200px;
+	height: 100%;
+	font-size: 17px;
+	vertical-align: top;
+	box-shadow: inset -0.5em 0 1em rgba(0,0,0,0.3);
+}
+.LeftColumn a:link {
+	color: #dbdbdb;
+	text-decoration: none;
+}
+.LeftColumn a:visited {
+	color: #dbdbdb;
+	text-decoration: none;
+}
+.LeftColumn a:active {
+	color: #dbdbdb;
+	text-decoration: none;
+}
+.LeftColumn a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.LeftColumn .BannerLogo {
+	background-color: #0095BF;
+	background-image:  url(./images/ApertureLabs_logo.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-x: 10px;
+	background-position-y: 15px;
+	width: 200px;
+	height: 80px;
+	font-size: 17px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+.LeftColumn .BottomSpacer {
+	font-size: 12px;
+	text-align: right;
+}
+.LeftColumn .SectionSpacer {
+	font-size: 12px;
+	height: 10px;
+}
+.LeftColumn .Section {
+	background-color: #333333;
+	box-shadow: 0 5px 3px rgba(0,0,0,0.3);
+}
+.LeftColumn .SectionHeader, .SectionHeaderL2 {
+	font-size: 14px;
+	padding-left: 10px;
+	vertical-align: center;
+	line-height: 1.5;
+}
+.LeftColumn .SectionHeaderL2 {
+	padding-left: 30px;
+}
+.LeftColumn .SectionOption, .SectionOptionL2 {
+	color: #AAAAAA;
+	font-size: 12px;
+	height: auto;
+	padding-left: 20px;
+	vertical-align: center;
+}
+.LeftColumn .SectionOptionSelected, .SectionOptionSelectedL2 {
+	background-color: #0095BF;
+	color: #dbdbdb;
+	width: 100px;
+	font-size: 12px;
+	height: auto;
+	width: 180px;
+	padding-left: 20px;
+	vertical-align: center;
+}
+.LeftColumn .SectionOptionL2 {
+	padding-left: 40px;
+	width: 160px;
+}
+.LeftColumn .SectionOptionSelectedL2 {
+	padding-left: 40px;
+	width: 160px;
+}
+.LeftColumn .SectionTextBox {
+	color: #AAAAAA;
+	font-size: 12px;
+	height: 40px;
+	padding-left: 5px;
+	vertical-align: center;
+}
+.LeftColumn .SelectBox {
+	color: #333333;
+	font-size: 12px;
+	height: 14px;
+	vertical-align: center;
+}
+.LeftColumn .LoginError {
+	background-color: #F56;
+}
+.TopNotice {
+	margin-left: 200px;
+	padding-left: 10px;
+	color: #FFFFFF;
+	background-color: #0095BF;
+	width: 100%;
+	height: 25px;
+	font-size: 14px;
+	vertical-align: center;
+}
+.MainContent {
+	border-spacing: 0px;
+	margin: 0;
+	margin-left: 220px;
+	color: #333333;
+	width: 950px;
+	height: 100%;
+	font-size: 14px;
+	vertical-align: top;
+}
+.MainContent a:link {
+	color: #333333;
+	text-decoration: none;
+}
+.MainContent a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+.MainContent a:active {
+	color: #333333;
+	text-decoration: none;
+}
+.MainContent .SectionHead {
+	border-bottom: 1px solid #EEEEEE;
+	font-size: 18px;
+}
+.MainContent .SmallText {
+	color: #222222;
+	font-size: 12px;
+}
+.GraphWall {
+	border-spacing: 0px;
+	margin: 0;
+	margin-left: 10px;
+	color: #333333;
+	width: 2000px;
+	height: 100%;
+	font-size: 20px;
+	vertical-align: top;
+}
+.SectionTextBox {
+	color: #222222;
+	font-size: 12px;
+	padding-left: 5px;
+	vertical-align: center;
+	width: 142px;
+}
+.SelectBox {
+	color: #333333;
+	font-size: 12px;
+	vertical-align: center;
+	width: 150px;
+}
+.FootNote {
+	position: fixed;
+	left:220px;
+	bottom:0px;
+	height:20px;
+	border-spacing: 0px;
+	margin: 10;
+	padding: 10;
+	color: #222222;
+	font-size: 10px;
+}
+.divTable{
+	display: table;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableRowAlt {
+	display: table-row;
+	background-color: #F5F5F5;
+}
+.divTableCell, .divTableCellRight, .divTableCellHostname, .divTableCellService, .divTableCellNarrow, .divTableCellDateTime, .divTableCellInfo {
+	border: 0px solid #999999;
+	display: table-cell;
+	padding: 3px 4px;
+	font-size: 14px;
+	width: 50px;
+}
+.divTableCellRight {
+	text-align: right;
+}
+.divTableHead, .divTableHeadRight {
+	border: 0px solid #999999;
+	display: table-cell;
+	padding: 3px 4px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: 600;
+}
+.divTableHeadRight {
+	text-align: right;
+}
+.divTableHeading {
+	background-color: #DDDDDD;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #DDDDDD;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+.divTableInput {
+	border: 0px solid #999999;
+	display: table-cell;
+	padding: 3px 4px;
+	font-size: 14px;
+	width: 240;
+}
+
+.statusOK {
+	border-right: 6px solid #4B7;
+	padding-right: 3px;
+	text-align: right;
+}
+.statusWarn {
+	border-right: 6px solid #FA4;
+	padding-right: 3px;
+	text-align: right;
+}
+.statusCrit {
+	border-right: 6px solid #F56;
+	padding-right: 3px;
+	text-align: right;
+}
+.statusUnkn {
+	border-right: 6px solid #C0C;
+	padding-right: 3px;
+	text-align: right;
+}
+.statusPlain {
+	border-right: 6px solid #CCC;
+	padding-right: 3px;
+	text-align: right;
+}
+.divTableCellHostname {
+	width: 220px;
+	text-align: left;
+}
+.divTableCellService {
+	width: 170px;
+	text-align: left;
+}
+.divTableCellDateTime {
+	width: 170px;
+	text-align: left;
+}
+.divTableCellNarrow {
+	width: 10px;
+}
+.divTableCellInfo {
+	width: 100px;
+}
